@@ -1,0 +1,433 @@
+@font-face {
+  font-family: Halvatica;
+  src: url(../fonts/HelveticaInseratLTStd-Roman.otf);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+#header .firstCartNav {
+  border-bottom: 0.1rem solid #000;
+}
+#header .firstCartNav .navbar * {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #000;
+}
+#header .firstCartNav .navbar .cart::after {
+  content: "|";
+  padding-left: 1rem;
+}
+#header .firstCartNav .navbar .cartImg {
+  margin-top: -0.5rem;
+}
+#header .firstCartNav .navbar .search {
+  padding: 1rem 0.5rem;
+}
+
+#header .topNavText {
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 1rem 0;
+  background: #cc2223;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+#header .secondNav .navbar {
+  padding: 1.5rem 0;
+}
+#header .secondNav .navbar * {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #000;
+}
+#header .secondNav .navbar .nav-item {
+  padding-right: 1.5rem;
+}
+#header .secondNav .navbar .nav-item a {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#banner {
+  background: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#banner .bannerContent {
+  height: 46rem;
+  color: #fff;
+}
+#banner .bannerContent .bannerTitle {
+  font-size: 6rem;
+  text-align: center;
+  font-weight: 800;
+}
+#banner .bannerContent .bannerText {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 300;
+  padding-top: 3rem;
+}
+
+#preventative {
+  padding: 6rem 0;
+}
+#preventative .innerText {
+  width: 75%;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.sectionTitle {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #cc2223;
+  text-align: center;
+  padding: 2.5rem 0;
+}
+
+.innerText {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+#whyInvest {
+  padding: 6rem 0;
+  background: #cc2223;
+}
+#whyInvest .whyInvestContent * {
+  color: #fff;
+}
+#whyInvest .whyInvestContent .whyCards {
+  padding-top: 3rem;
+}
+#whyInvest .whyInvestContent .whyCards .card {
+  background: transparent;
+  border-color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+#whyInvest .whyInvestContent .whyCards .card .card-title {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  font-weight: 800;
+}
+#whyInvest .whyInvestContent .whyCards .card .card-text {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+#whyInvest .whyInvestContent .whyCards .card:hover {
+  background: #fff;
+}
+#whyInvest .whyInvestContent .whyCards .card:hover .card-title {
+  color: #cc2223;
+}
+#whyInvest .whyInvestContent .whyCards .card:hover .card-text {
+  color: #000;
+}
+
+#whatInclud {
+  padding: 6rem 0;
+}
+#whatInclud .sectionTitle {
+  color: #000000;
+  padding-bottom: 4rem;
+}
+#whatInclud .whatCards .card {
+  border: none;
+  margin-bottom: 5rem;
+}
+#whatInclud .whatCards .card .card-body {
+  padding: 0;
+}
+#whatInclud .whatCards .card .card-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  background: #cc2223;
+  color: #fff;
+  padding: 1.5rem 1rem;
+}
+#whatInclud .whatCards .card .card-text {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.7;
+  padding: 1.5rem 1rem;
+}
+
+#whyChooseUs {
+  background: #111010;
+  padding: 6rem 0 0 0;
+}
+#whyChooseUs .container * {
+  color: #fff;
+}
+#whyChooseUs .container .chosseList {
+  padding: 6rem 5rem 0 6rem;
+}
+#whyChooseUs .container .chosseList li {
+  list-style-image: url(../images/check.png);
+  padding-bottom: 2rem;
+}
+#whyChooseUs .container .chosseList li .lsitTitle {
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding-left: 1.5rem;
+}
+#whyChooseUs .container .chosseList li .listDetails {
+  font-size: 1.8rem;
+  font-weight: 300;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+  line-height: 1.7;
+}
+#whyChooseUs .container .chosseList li:last-child {
+  padding-bottom: 0;
+}
+
+#customerSay {
+  padding: 6rem 0;
+  background: #cc2223;
+}
+#customerSay .sectionTitle {
+  color: #fff;
+}
+#customerSay .customerCards {
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+#customerSay .customerCards .card {
+  padding: 3rem;
+}
+#customerSay .customerCards .card img {
+  width: 5rem;
+}
+#customerSay .customerCards .card .card-body .card-text {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+#customerSay .customerCards .card .card-body .cardDivider {
+  height: 0.3rem;
+  background: #eeeeee;
+}
+#customerSay .customerCards .card .card-body .userInfo .userPic {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#customerSay .customerCards .card .card-body .userInfo .name {
+  font-size: 2.1rem;
+  font-weight: 400;
+}
+#customerSay .customerCards .card .card-body .userInfo .stars {
+  display: flex;
+}
+#customerSay .customerCards .card .card-body .userInfo .stars img {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 0.3rem;
+}
+
+.slick-slide {
+  margin-right: 2rem;
+}
+
+.slick-dots li button:before {
+  font-family: "slick";
+  font-size: 5rem;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 0.1rem solid #fff;
+  content: "";
+  text-align: center;
+  opacity: 1;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.5rem;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: white;
+  background: #fff;
+}
+
+.slick-dots {
+  bottom: -2rem;
+}
+
+#faq {
+  padding: 6rem 0;
+}
+#faq .faqCtrl * {
+  color: #000;
+}
+#faq .faqAccroidon {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+#faq .accordion-button {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+#faq .accordion-button span {
+  padding-left: 7rem;
+}
+#faq .accordion-body {
+  font-size: 1.8rem;
+  font-weight: 300;
+  padding-left: 6rem;
+}
+#faq .accordion-item {
+  margin-bottom: 3rem;
+}
+#faq .accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: transparent;
+  box-shadow: none;
+}
+#faq .accordion-button:not(.collapsed)::after {
+  background-image: url(../images/minus.png);
+  transform: rotate(-180deg);
+}
+#faq .accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "";
+  background-image: url(../images/plus.png);
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+#footer {
+  background: #cc2223;
+}
+#footer .footerNavigaiton .nav-item a {
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+#footer .copyright p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  #header .firstCartNav .navbar * {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #000;
+    width: 100%;
+  }
+  #header .firstCartNav {
+    border-bottom: 0.1rem solid #000;
+    text-align: center;
+  }
+  #header .firstCartNav .navbar .cartImg {
+    margin-top: -0.5rem;
+    width: 3rem;
+  }
+  #banner .bannerContent .bannerTitle {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 800;
+  }
+  .sectionTitle {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #cc2223;
+    text-align: center;
+    padding: 2.5rem 0;
+  }
+  .sectionTitle br {
+    display: none;
+  }
+  #preventative .innerText {
+    width: 100%;
+  }
+  #whyChooseUs .container .chosseList {
+    padding: 6rem 1rem 0 1rem;
+  }
+  .slick-slide {
+    margin-right: 0;
+  }
+  #faq .accordion-button span {
+    padding-left: 2rem;
+  }
+  #faq .accordion-body {
+    padding-left: 0;
+  }
+  #faq .accordion-button {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  #faq .faqAccroidon {
+    width: 100%;
+  }
+  .footerNavResCtrl {
+    display: block !important;
+  }
+  #footer .copyright p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #fff;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+  #header .secondNav .navbar * {
+    font-size: 1.4rem;
+  }
+  #header .secondNav .navbar .nav-item {
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  #header .secondNav .navbar * {
+    font-size: 1.5rem;
+  }
+  #header .secondNav .navbar .nav-item {
+    padding-right: 1rem;
+  }
+}
